@@ -1,0 +1,32 @@
+#add_item{
+  color: sandybrown;
+}
+.todo{
+  width: 650px;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
+input[type=text]{
+  width: 512px;
+  height: 40px;
+  margin: 0 0 0 5px;
+  color: rgb(37, 181, 206);
+  outline: none;
+  font-size: 18px;
+}
+input[type=text]:focus{
+  width: 512px;
+  height: 40px;
+  background-color:rgb(204, 199, 122);
+  margin: 0 0 0 5px;
+  color: rgb(132, 206, 37);
+  border: 3px solid tan;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+
+body{
+  background:salmon;
+}
