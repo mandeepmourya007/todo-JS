@@ -10,6 +10,8 @@ let id = 1;
 
 btn.addEventListener("click", function (e) {
     e.preventDefault();
+    if (input.value == "")
+        return;
     list.push(input.value);
     item = document.createElement("p");
     let edit_btn = document.createElement("BUTTON");
@@ -32,9 +34,16 @@ btn.addEventListener("click", function (e) {
         delete_btn.parentElement.remove();
 
     })
+    edit_btn.style.margin = '10px';
     edit_btn.addEventListener("click", function () {
         console.log("yoyo")
+
     })
+    edit_btn.classList.add("btn-warning");
+    delete_btn.classList.add("btn-warning");
+    item.classList.add("alert-dark");
+    input.value = "";
+
 
 }
 )
