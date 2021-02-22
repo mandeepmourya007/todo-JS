@@ -30,7 +30,6 @@ btn.addEventListener("click", function (e) {
     item.appendChild(delete_btn);
 
     delete_btn.addEventListener("click", function () {
-
         delete_btn.parentElement.remove();
 
     })
